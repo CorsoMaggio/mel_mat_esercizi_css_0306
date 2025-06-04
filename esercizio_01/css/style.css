@@ -36,14 +36,30 @@ h1 {
 }
 
 h5 {
-    text-shadow: 2px 2px 0px blue;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 0.5px -1px 0px blue;
+}
+
+.header-p {
+    margin-inline: auto;
+    margin-top: 5px;
+    width: 120px;
+    height: 50px;
+    background-color: aliceblue;
 }
 
 p {
+    display: flex;
+    justify-content: start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
     font-size: 11px;
     font-weight: 100;
     padding: 3px 5px;
     color: #000;
+
 }
 
 
@@ -70,20 +86,41 @@ p {
 }
 
 .post-box {
-
     background-color: rgb(129, 98, 98);
     padding: 5px;
     text-shadow: 2px;
     border-radius: 10px;
 }
 
-.post-box>.post {
+.post-container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.post-container>.post {
+
     height: 150px;
     width: 150px;
-    border: 2px solid blue;
     color: brown;
+    background-color: rgb(202, 226, 226);
+    box-shadow: 0 2px 4px rgb(93, 93, 93);
 
 }
 
+.content {
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    padding: 3px 5px;
+    color: #000;
+    white-space: wrap;
+
+}
 
 /*ID*/
