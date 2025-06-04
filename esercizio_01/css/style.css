@@ -4,9 +4,15 @@
 
 
 html {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 
     background-color: rgb(216, 239, 239);
+    color: navy;
 }
 
 main {
@@ -17,16 +23,29 @@ main {
 
 }
 
+footer {
+    background-color: brown;
+    margin: 3px;
+    text-align: center;
+
+}
+
 h1 {
     font-size: 13px;
     margin-top: -3px;
 }
 
+h5 {
+    text-shadow: 2px 2px 0px blue;
+}
+
 p {
     font-size: 11px;
-
-    font-weight: 300;
+    font-weight: 100;
+    padding: 3px 5px;
+    color: #000;
 }
+
 
 
 
@@ -42,10 +61,12 @@ p {
 
 }
 
+
+
 .logo {
 
     max-width: 50px;
-    justify-content: center;
+
 }
 
 .post-box {
@@ -57,7 +78,11 @@ p {
 }
 
 .post-box>.post {
-    background-color: green;
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    color: brown;
+
 }
 
 
