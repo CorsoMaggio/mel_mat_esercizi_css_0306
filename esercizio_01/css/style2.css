@@ -1,0 +1,94 @@
+/* Crea una pagina HTML che rappresenti un semplice portfolio personale con:
+	• una sezione con nome, descrizione e immagine profilo
+	• una lista di 3 progetti (titolo e breve descrizione)
+	• un link per il contatto email
+	Applica con il CSS:
+	• :hover per cambiare colore dei link al passaggio del mouse */
+:root {
+    --bg-color-container: white;
+    --bg-color-page: azure;
+    --font-color-h1: fuchsia;
+}
+
+
+.jersey-20-regular {}
+
+html {
+    background-color: var() font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    color: fuchsia;
+
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border: 2px #000 solid;
+    background-color: white;
+    margin: 10px;
+
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: fuchsia;
+    font-size: large;
+
+
+
+}
+
+
+
+
+
+.container {
+
+    background-image: url("../img/love.png");
+    background-size: 32px 32px;
+    display: flex;
+    justify-content: space-between
+}
+
+.card {
+    width: 150px;
+    height: auto;
+    padding: 5px;
+
+    border: 2px #000 solid;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.profile-img {
+    width: 100px;
+    height: auto;
+
+}
+
+.profile-img:hover {
+    border: 3px fuchsia double;
+}
+
+.img-chat img {
+    visibility: hidden;
+
+}
+
+.img-chat:hover img {
+    visibility: visible;
+}
